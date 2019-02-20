@@ -132,30 +132,67 @@ table {
 }
 html,
 body {
-  height: 100%;
-  font-family: 'Raleway' medium;
-  font-size: 75%;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
 }
 .container-home {
+  border: 1px solid red;
   width: 100%;
-  max-width: 1024px;
 }
-.resume-content h1 {
+.container-home h1 {
+  color: #1f1055;
   font-size: 3rem;
 }
-.resume-content h2 {
+.container-home h2 {
+  color: #1f1055;
   font-size: 2rem;
 }
-.resume-content h3 {
+.container-home h3 {
+  color: #1f1055;
   font-size: 1.5rem;
 }
-.header-main a,
-.header-main p {
-  font-size: 1rem;
+.header-main {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header-main .header-nav {
+  border: 1px solid red;
+  margin: 1rem;
+}
+.header-main .header-nav a {
+  margin: 1rem;
+}
+.header-main .header-content {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 10%;
+}
+.main-content section {
+  margin: 2rem auto;
 }
 .main-content p {
   font-size: 1rem;
+  margin: 1.5rem auto;
 }
-.main-content .skills-list ul {
+.main-content h2,
+.main-content h3 {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.main-content h4 {
+  font-style: italic;
+}
+.main-content .skills-list li {
   list-style-type: circle;
+  margin: 1rem auto;
 }
