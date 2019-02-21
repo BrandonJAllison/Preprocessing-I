@@ -172,7 +172,7 @@ body {
     margin: 0.4rem;
   }
 }
-a:hover {
+.header-main a:hover {
   text-decoration: underline;
   color: gray;
 }
