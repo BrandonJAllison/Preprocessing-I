@@ -137,6 +137,8 @@ body {
   scroll-behavior: smooth;
 }
 .container-home {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 .container-home h1 {
@@ -150,6 +152,18 @@ body {
 .container-home h3 {
   color: #1f1055;
   font-size: 1.2rem;
+}
+.shadow {
+  width: 80%;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+@media (max-width: 700px) {
+  .shadow {
+    box-shadow: none;
+    width: 100%;
+    padding: 0;
+  }
 }
 .header-main {
   display: flex;
